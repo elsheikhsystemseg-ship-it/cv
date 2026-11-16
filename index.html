@@ -53,15 +53,16 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 15px;
+            gap: 10px;
             margin-top: 15px;
             font-size: 14px;
             color: #444;
         }
-        .contact-info span {
-            background: #e9ecef;
-            padding: 5px 12px;
+        .contact-info span, .contact-info a {
+            padding: 6px 14px;
             border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
         }
         details {
             background: #f8f9fa;
@@ -131,18 +132,28 @@
 </head>
 <body>
 
-<div class="contact-info">
-    <!-- زر الموقع الدقيق لمنزلك على خرائط جوجل -->
-    <a href="https://maps.app.goo.gl/zWDvBamFkSaFKXdG9" target="_blank" style="background: #e9ecef; padding: 6px 14px; border-radius: 20px; text-decoration: none; color: #333; font-weight: bold;">📍 سوهاج - ش البستان الشرقي (المحطة)</a>
+<div class="container">
+    <div class="header">
+        <!-- الصورة الشخصية -->
+        <img src="photo.jpg" alt="الصورة الشخصية" class="profile-pic">
+        
+        <!-- اكتب اسمك الكامل هنا -->
+        <h1>عمر محمود عبدالرحيم أبوزيد</h1>
+        <h2>فني تيار خفيف وتركيب أنظمة وكاميرات مراقبة</h2>
+        
+        <div class="contact-info">
+            <!-- زر الموقع الدقيق لمنزلك -->
+            <a href="https://goo.gl" target="_blank" style="background: #e9ecef; color: #333;">📍 سوهاج - ش البستان الشرقي (المحطة)</a>
 
-    <!-- زر الاتصال الهاتفي المباشر -->
-    <a href="tel:+201012033762" style="background: #e3f2fd; padding: 6px 14px; border-radius: 20px; text-decoration: none; color: #0056b3; font-weight: bold;">📞 01012033762</a>
+            <!-- زر الاتصال الهاتفي (عدّل الرقم هنا) -->
+            <a href="tel:+201012033762" style="background: #e3f2fd; color: #0056b3;">📞 01012033762</a>
 
-    <!-- زر الواتساب المباشر -->
-    <a href="https://wa.me 201012033762" target="_blank" style="background: #e8f5e9; padding: 6px 14px; border-radius: 20px; text-decoration: none; color: #1b5e20; font-weight: bold;">💬 تواصل واتساب</a>
+            <!-- زر الواتساب (ضع كود الدولة 20 ثم الرقم بدون صفر البداية وبدون +) -->
+            <a href="https://wa.me201012033762" target="_blank" style="background: #e8f5e9; color: #1b5e20;">💬 تواصل واتساب</a>
 
-    <span>🎂 مواليد: 17 / 12 / 1979م</span>
-</div>
+            <span style="background: #f8f9fa; border: 1px solid #dee2e6;">🎂 مواليد: 17 / 12 / 1979م</span>
+        </div>
+    </div>
 
     <!-- القسم الأول -->
     <details open>
@@ -218,8 +229,7 @@
         <summary>المؤهلات العلمية واللغات</summary>
         <div class="content">
             <ul>
-                <!-- عدّل مؤهلك الدراسي هنا قبل الحفظ -->
-                <li><strong>المؤهل الدراسي:</strong> ثانوية ازهرية 1999.</li>
+                <li><strong>المؤهل الدراسي:</strong> الثانوية الأزهرية 1999.</li>
                 <li><strong>اللغة الإنجليزية:</strong> جيد جداً في قراءة وفهم المصطلحات التقنية وكتالوجات الأجهزة.</li>
             </ul>
         </div>
