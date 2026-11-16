@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السيرة الذاتية - فني تيار خفيف وكاميرات مراقبة</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #0056b3;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center 15%;
+            border: 4px solid #0056b3;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            margin-bottom: 15px;
+            background-color: #e9ecef;
+        }
+        .header h1 {
+            margin: 0;
+            color: #0056b3;
+            font-size: 28px;
+        }
+        .header h2 {
+            margin: 8px 0;
+            color: #555;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #444;
+        }
+        .contact-info span {
+            background: #e9ecef;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+        details {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+        summary {
+            background-color: #0056b3;
+            color: white;
+            padding: 14px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        summary::-webkit-details-marker {
+            display: none;
+        }
+        summary::after {
+            content: '+';
+            font-size: 22px;
+            font-weight: bold;
+        }
+        details[open] summary::after {
+            content: '−';
+        }
+        details[open] summary {
+            background-color: #004494;
+        }
+        .content {
+            padding: 20px;
+            background: #ffffff;
+        }
+        .job-item {
+            margin-bottom: 20px;
+            border-right: 3px solid #0056b3;
+            padding-right: 15px;
+        }
+        .job-title {
+            font-weight: bold;
+            font-size: 17px;
+            color: #0056b3;
+        }
+        .job-date {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        ul {
+            margin: 0;
+            padding-right: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        @media print {
+            details { border: none; }
+            summary { background: #eee !important; color: #000 !important; }
+            summary::after { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <!-- الصورة مربوطة مباشرة باسم photo.jpg في نفس المجلد -->
+        <img src="photo.jpg" alt="الصورة الشخصية" class="profile-pic">
+        
+        <!-- عدّل اسمك ورقم هاتفك هنا قبل الحفظ -->
+        <h1>عمر محمود عبدالرحيم ابوزيد</h1>
+        <h2>التقدم لوظيفة فني تيار خفيف وتركيب أنظمة وكاميرات مراقبة</h2>
+        <div class="contact-info">
+            <span>📍 سوهاج، مصر</span>
+            <span>📞 01012033762</span>
+            <span>🎂 مواليد: 17 / 12 / 1979م</span>
+        </div>
+    </div>
+
+    <!-- القسم الأول -->
+    <details open>
+        <summary>الهدف الوظيفي والنبذة الشخصية</summary>
+        <div class="content">
+            <p>فني ومشرف ذو خبرة عملية وتقنية متميزة تمتد لأكثر من 25 عاماً في مجالات الحاسب الآلي، الشبكات، تركيب أنظمة وكاميرات المراقبة، بالإضافة إلى الخبرة الإدارية والإشرافية. أسعى للانضمام إلى فريق عمل <strong>(شركة الشاذلي تكنولوجي)</strong> بصفة فني تيار خفيف وتركيب كاميرات مراقبة، لتوظيف خبراتي الميدانية والإدارية في تنفيذ المشاريع بأعلى معايير الدقة والجودة.</p>
+        </div>
+    </details>
+
+    <!-- القسم الثاني -->
+    <details>
+        <summary>الخبرات العملية (2000 - 2026)</summary>
+        <div class="content">
+            <div class="job-item">
+                <div class="job-title">مشرف إداري – شركة الفيصلية (دولة الكويت)</div>
+                <div class="job-date">من عام 2016م إلى عام 2026م (10 سنوات)</div>
+                <ul>
+                    <li>الإشراف على سير العمل اليومي وتنظيم الفرق الفنية والإدارية لضمان إنجاز المهام في مواعيدها.</li>
+                    <li>متابعة تنفيذ العقود والمشاريع، والتنسيق الفعال بين الإدارة والعملاء والموردين.</li>
+                    <li>إعداد التقارير الدورية، وحل المشكلات الميدانية والإدارية بكفاءة واحترافية عالية.</li>
+                </ul>
+            </div>
+
+            <div class="job-item">
+                <div class="job-title">صاحب ومدير مكتب الشيخ لخدمات الكمبيوتر وكاميرات المراقبة – سوهاج</div>
+                <div class="job-date">من عام 2006م إلى عام 2016م (10 سنوات)</div>
+                <ul>
+                    <li>توريد وتركيب وبرمجة أنظمة وكاميرات المراقبة الحديثة للمنازل، المحلات، والشركات.</li>
+                    <li>تمديد شبكات الكابلات، وربط أنظمة المراقبة بالإنترنت والهواتف الذكية للمتابعة عن بُعد.</li>
+                    <li>تنفيذ كافة أعمال صيانة أجهزة الحاسب الآلي (هاردوير وسوفت وير) وتأسيس الشبكات المحلية (LAN).</li>
+                    <li>معاينة المواقع وتحديد الاحتياجات الفنية المناسبة للعملاء وتقديم الدعم الفني المستمر.</li>
+                </ul>
+            </div>
+
+            <div class="job-item">
+                <div class="job-title">فني كمبيوتر وسوفت وير – شركة التعاون للكمبيوتر (سوهاج)</div>
+                <div class="job-date">من عام 2000م إلى عام 2006م (6 سنوات)</div>
+                <ul>
+                    <li>تجميع وصيانة أجهزة الكمبيوتر وتثبيت أنظمة التشغيل والبرامج المتخصصة.</li>
+                    <li>تشخيص الأعطال التقنية وحل مشكلات الأنظمة والبرمجيات والشبكات.</li>
+                </ul>
+            </div>
+        </div>
+    </details>
+
+    <!-- القسم الثالث -->
+    <details>
+        <summary>المهارات الفنية (التيار الخفيف وكاميرات المراقبة)</summary>
+        <div class="content">
+            <ul>
+                <li><strong>أنظمة المراقبة:</strong> خبرة عملية في توريد وتركيب وبرمجة كاميرات المراقبة (Analog / IP) وأجهزة التسجيل (DVR / NVR).</li>
+                <li><strong>التمديدات والشبكات:</strong> احترافية في تمديد الكابلات (Coaxial / UTP) وتأريج الأسلاك وتنظيم لوحات التوزيع.</li>
+                <li><strong>الربط والبرمجة:</strong> خبرة قوية في إعدادات الشبكات وعناوين الـ IP وربط الأنظمة بالإنترنت والهواتف.</li>
+                <li><strong>الصيانة:</strong> القدرة على فحص وتتبع الأعطال الكهربائية والفنية وإصلاحها بدقة.</li>
+            </ul>
+        </div>
+    </details>
+
+    <!-- القسم الرابع -->
+    <details>
+        <summary>المهارات الإدارية والشخصية</summary>
+        <div class="content">
+            <ul>
+                <li>مهارات قيادية وإشرافية قوية مكتسبة من العمل الإداري لمدة 10 سنوات خارج مصر (الكويت).</li>
+                <li>الالتزام التام بالمواعيد، الأمانة المهنية، والقدرة على إدارة فرق العمل في المواقع.</li>
+                <li>مهارات تواصل ممتازة في التعامل المباشر مع العملاء وفهم متطلباتهم.</li>
+            </ul>
+        </div>
+    </details>
+
+    <!-- القسم الخامس -->
+    <details>
+        <summary>المؤهلات العلمية واللغات</summary>
+        <div class="content">
+            <ul>
+                <!-- عدّل مؤهلك الدراسي هنا قبل الحفظ -->
+                <li><strong>المؤهل الدراسي:</strong> ثانوية ازهرية 1999.</li>
+                <li><strong>اللغة الإنجليزية:</strong> جيد جداً في قراءة وفهم المصطلحات التقنية وكتالوجات الأجهزة.</li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+</body>
+</html>
